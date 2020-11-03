@@ -1,5 +1,7 @@
 # Matteo Sandrin's Individual Project
-
+  
+You can view this project live [here](https://matteosandrin.github.io/coms4170-individual-project).
+  
 This web application requires a webserver in order to function.  
 To start a web server follow these steps:
 1. Make sure you're in the same directory as `index.html`
