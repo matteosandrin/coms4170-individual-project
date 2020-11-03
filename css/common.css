@@ -13,25 +13,6 @@ body {
     height: 100%;
 }
 
-@media (min-width: 450px) {
-    html {
-        font-size: 0.65vh;
-    }
-    body {
-        margin-top: 4vh;
-        width: 40vh;
-        height: 85vh;
-        margin-left: auto;
-        margin-right: auto;
-        border: 5rem solid black;
-        border-radius: 5rem;
-        overflow-y: scroll;
-    }
-    .container {
-        overflow-y: scroll;
-    }
-}
-
 form {
     margin: 0px;
 }
@@ -43,7 +24,7 @@ form {
 }
 
 .header {
-    position: absolute;
+    position: fixed;
     top: 0px;
     width: 100%;
     height: 10rem;
@@ -120,4 +101,34 @@ form {
     text-align: center;
     border-radius: 1.5rem;
     text-decoration: none;
+}
+
+@media (min-width: 450px) {
+    html {
+        font-size: 0.65vh;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    body {
+        margin-top: 4vh;
+        width: 40vh;
+        height: 85vh;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3vh solid black;
+        border-radius: 3vh;
+        /* overflow-y: scroll; */
+    }
+    .container {
+        overflow-y: scroll;
+    }
+    .header {
+        width: 40vh;
+        top: 7vh;
+    }
 }
