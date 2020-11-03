@@ -1,0 +1,71 @@
+{
+    "recipes" : [
+        {
+            "title" : "Marrakesh Stew",
+            "image" : "/img/marrakesh_stew.jpg",
+            "url" : "https://www.marthastewart.com/335372/marrakesh-stew",
+            "keywords" : [
+                "stew",
+                "Morocco",
+                "cous cous",
+                "soup",
+                "hearty",
+                "turmeric",
+                "tangy",
+                "chicken",
+                "north Africa",
+                "mediterranean"
+            ]
+        },
+        {
+            "title" : "Roasted red pepper soup",
+            "image" : "/img/carrot_soup.jpg",
+            "url" : null,
+            "keywords" : [
+                "roasted",
+                "red",
+                "pepper",
+                "soup",
+                "carrot",
+                "garlic",
+                "croutons"
+            ]
+        },
+        {
+            "title" : "Apple Crisp",
+            "image" : "/img/apple_crisp.jpg",
+            "url" : "https://www.thechunkychef.com/old-fashioned-easy-apple-crisp",
+            "keywords" : [
+                "dessert",
+                "fall",
+                "hearty",
+                "apple",
+                "crisp"
+            ]
+        },
+        {
+            "title" : "Caribbean rum pound cake",
+            "image" : "/img/caribbean_rum.jpg",
+            "url" : "https://www.kingarthurbaking.com/recipes/caribbean-style-rum-cake-recipe",
+            "keywords" : [
+                "dessert",
+                "boozy",
+                "cake",
+                "caribbean",
+                "rum"
+            ]
+        },
+        {
+            "title" : "Mapo tofu",
+            "image" : "/img/mapo_tofu.jpg",
+            "url" : "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+            "keywords" : [
+                "healthy",
+                "umami",
+                "tofu",
+                "japanese",
+                "spicy"
+            ]
+        }
+    ]
+}

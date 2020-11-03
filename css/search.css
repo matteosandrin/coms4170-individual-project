@@ -1,0 +1,22 @@
+.text-input {
+    margin-bottom: 2rem;    
+}
+
+.recipe {
+    border-radius: 2.5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    background-color: #97CAED;
+}
+
+.recipe-title {
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.crumb {
+    font-size: 2.5rem;
+}

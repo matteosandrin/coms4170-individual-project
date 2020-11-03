@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-size: 6px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    color: #3D3D3D;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 450px) {
+    html {
+        font-size: 0.65vh;
+    }
+    body {
+        margin-top: 4vh;
+        width: 40vh;
+        height: 85vh;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5rem solid black;
+        border-radius: 5rem;
+        overflow-y: scroll;
+    }
+    .container {
+        overflow-y: scroll;
+    }
+}
+
+form {
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 10rem;
+    background-color: #3498DB;
+    text-align: center;
+    padding: 3rem 2rem 2rem 2rem;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.header-title {
+    color: white;
+    font-size: 4rem;
+    line-height: 6rem;
+    width: 100%;
+}
+
+.header-back-button {
+    display: inline;
+    background-color: white;
+    color: #3498DB;
+    font-size: 4rem;
+    float: left;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.content {
+    padding: 13rem 3.5rem 3.5rem 3.5rem;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.text-input {
+    background-color: #F4F9FE;
+    color: #3D3D3D;
+    width: 100%;
+    height: 8rem;
+    font-size: 3rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.tile {
+    border-radius: 1.5rem;
+    width: 100%;
+    border: 2px solid #E5E5E5;
+    margin-bottom: 1rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+}
+
+.crumb {
+    color: white;
+    background-color: #3498DB;
+    font-size: 2rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    margin-right: 0.25rem;
+    line-height: 2.0;
+}
+
+.big-button {
+    width: 100%;
+    height: 8rem;
+    line-height: 8rem;
+    font-size: 3rem;
+    color: white;
+    background-color: #5EA7FF;
+    display: block;
+    text-align: center;
+    border-radius: 1.5rem;
+    text-decoration: none;
+}
