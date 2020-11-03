@@ -33,7 +33,7 @@ if (params.has("id") && params.get("id").length > 0) {
 $(document).ready(() => {
     if (recipeID != null) {
         if (getFromLocalStorage() == null) {
-            $.ajax("/data.json").done((d) => {
+            $.ajax("./data.json").done((d) => {
                 data = d;
                 dumpToLocalStorage(data);
                 var recipe = data.recipes[recipeID];

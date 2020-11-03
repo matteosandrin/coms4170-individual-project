@@ -9,7 +9,7 @@ if (params.has("q") && params.get("q").length > 0) {
 
 $(document).ready(() => {
     if (getFromLocalStorage() == null) {
-        $.ajax("/data.json").done((d) => {
+        $.ajax("./data.json").done((d) => {
             data = d;
             dumpToLocalStorage(data);
             $(".text-input").trigger("input");

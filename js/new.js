@@ -5,7 +5,7 @@ var data = {
 
 $(document).ready(() => {
     if (getFromLocalStorage() == null) {
-        $.ajax("/data.json").done((d) => {
+        $.ajax("./data.json").done((d) => {
             data = d;
             dumpToLocalStorage(data);
             $(".text-input").trigger("input");
