@@ -28,7 +28,7 @@ function loadData() {
                         .append($("<span></span>").addClass("crumb").text(recipe.keywords[1].replace(" ", "\xa0")))
                         .append($("<span></span>").addClass("crumb").text(recipe.keywords[2].replace(" ", "\xa0")))
                 )
-                .click(() => window.location = '/recipe.html?id=' + data.recipes.indexOf(recipe))
+                .click(() => window.location = './recipe.html?id=' + data.recipes.indexOf(recipe))
         );
     });
 }

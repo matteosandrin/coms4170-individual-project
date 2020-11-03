@@ -40,7 +40,7 @@ $(".text-input").on("input", (event) => {
             .append($("<div></div>").addClass("recipe-title").text(recipe.title))
             .append(crumbs)
             .click(() => {
-                window.location = '/recipe.html?id=' + data.recipes.indexOf(recipe);
+                window.location = './recipe.html?id=' + data.recipes.indexOf(recipe);
             });
         $(".content").append(recipeHTML);
     });

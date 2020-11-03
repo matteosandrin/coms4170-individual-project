@@ -85,5 +85,5 @@ $(".save-recipe-button").click(() => {
     };
     data.recipes.push(newRecipe);
     dumpToLocalStorage(data);
-    window.location = "/";
+    window.location = "./index.html";
 });
